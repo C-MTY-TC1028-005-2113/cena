@@ -1,4 +1,68 @@
+# Nombre:
+# Matricula:
+# Carrera:
+# Fecha:
 
+"""
+Diseña y códifica un programa en Python que haga lo siguiente: 
+
+Se te pide diseñar un programa que calcule la cantidad de 
+
+Datos de Entrada:
+El programa ya tiene una matriz con la información de las Series de Amazon 
+- cada renglón de la matriz se organiza de la siguiente forma
+       Titulo ,         genero,    código_serie, País, duracion_min, fecha_lanzamiento, calificación
+['I Am Not an Animal', 'Animation',   '11.164',  'GB',  '349',         '10/05/04',          '9.5']
+
+
+la matriz podría tener cualquier otra información - no siempre tendra la misma,
+solo por cuestiones de tiempo se puso fija - debes diseñar tu solución para que
+funcione para cualquier otro contenido de la matriz no únicamente para el actual,
+de lo contrario tu solución no se tomará en cuenta.
+
+Salidas:
+El programa debe desplegar un listado de las series, con una numeración de 1 hasta n Serie
+el programa debe tener la programación para calcular lo siguiente usando los datos de la matriz 
+       - debes diseñar tu solución para que funcione para cualquier otro contenido de la matriz 
+         no únicamente para el actual, de lo contrario TU SOLUCIÓN NO SE TOMARÁ EN CUENTA.
+    - Contar la cantidad de series que existen para cada genero (contar la cantidad del mismo genero-usa listas o matricess)
+    - Calcular el porcentaje % de series de ese genero que se calcula de la siguiente forma
+                            cantidad / total * 100
+        si por ejemplo son     9    / 20 * 100 = 45.0, que corresponde a un 45.0%
+    - Contar la cantidad total de series
+    - Calcular el promedio de todas las series de Amazon
+
+La salida debería ser :
+1 I Am Not an Animal Animation
+2 Chernobyl Drama
+3 Rick and Morty Animation
+4 Breaking Bad Drama
+5 Hunter x Hunter Animation
+6 Sherlock Crime
+7 Planet Earth II Documentary
+8 Peaky Blinders Crime
+9 Stranger Things Drama
+10 DEATH NOTE Animation
+11 Avatar: The Last Airbender Animation
+12 The Twilight Zone Drama
+13 The Wire Crime
+14 Gravity Falls Animation
+15 The Sopranos Drama
+16 Neon Genesis Evangelion Animation
+17 The Marvelous Mrs. Maisel Comedy
+18 Young Justice Animation
+19 Band of Brothers Drama
+20 Futurama Animation
+Animation 9 45.0%
+Drama 6 30.0%
+Crime 3 15.0%
+Documentary 1 5.0%
+Comedy 1 5.0%
+Total de series: 20
+Promedio: 8.38
+
+
+"""
 def main():
 
     series = [['I Am Not an Animal', 'Animation', '11.164', 'GB', '349', '10/05/04', '9.5'],
@@ -22,7 +86,8 @@ def main():
     ['Band of Brothers', 'Drama', '19.555', 'GB', '1500', '09/09/01', '8.2'],
     ['Futurama', 'Animation', '40.574', 'US', '919', '28/03/99', '8.2']]
 
-    
+  
+
 
 
     print("Total de series:", total)
