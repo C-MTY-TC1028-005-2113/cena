@@ -6,31 +6,30 @@
 """
 Diseña y códifica un programa en Python que haga lo siguiente: 
 
-Se te pide diseñar un programa que calcule la cantidad de 
-
 Datos de Entrada:
 El programa ya tiene una matriz con la información de las Series de Amazon 
 - cada renglón de la matriz se organiza de la siguiente forma
        Titulo ,         genero,    código_serie, País, duracion_min, fecha_lanzamiento, calificación
 ['I Am Not an Animal', 'Animation',   '11.164',  'GB',  '349',         '10/05/04',          '9.5']
 
-
 la matriz podría tener cualquier otra información - no siempre tendra la misma,
-solo por cuestiones de tiempo se puso fija - debes diseñar tu solución para que
+solo por cuestiones de tiempo se puso fija - debes programar tu solución para que
 funcione para cualquier otro contenido de la matriz no únicamente para el actual,
-de lo contrario tu solución no se tomará en cuenta.
+de lo contrario TU SOLUCIÓN NO TENDRÁ SE TOMARA EN CUENTA (0 PTOS.).
 
 Salidas:
-El programa debe desplegar un listado de las series, con una numeración de 1 hasta n Serie
+El programa debe desplegar un listado de las series, con una numeración de 1 hasta n Serie (la cantidad de renglones de la matriz)
 el programa debe tener la programación para calcular lo siguiente usando los datos de la matriz 
-       - debes diseñar tu solución para que funcione para cualquier otro contenido de la matriz 
-         no únicamente para el actual, de lo contrario TU SOLUCIÓN NO SE TOMARÁ EN CUENTA.
-    - Contar la cantidad de series que existen para cada genero (contar la cantidad del mismo genero-usa listas o matricess)
+       - NOTA IMPORTANTE - debes diseñar tu solución para que funcione para cualquier otro contenido de la matriz 
+         no únicamente para el actual, de lo contrario TU SOLUCIÓN NO SE TOMARÁ EN CUENTA(0 PTOS).
+    - Contar la cantidad de series que existen para cada genero (TIP - contar la cantidad del mismo genero usa listas)
     - Calcular el porcentaje % de series de ese genero que se calcula de la siguiente forma
                             cantidad / total * 100
-        si por ejemplo son     9    / 20 * 100 = 45.0, que corresponde a un 45.0%
-    - Contar la cantidad total de series
+        si por ejemplo son     9    / 20 * 100 = 45.0, que corresponde a un 45.0% 
+        (TIP - se calcula hasta el final puede ser al desplegar o antes y dejar los resultaods en una lista)
+    - Contar la cantidad total de series.  
     - Calcular el promedio de todas las series de Amazon
+       (TIP - usa un acumulador - inicializar antes del ciclo e incrementar al ir recorriendo la matriz)
 
 La salida debería ser :
 1 I Am Not an Animal Animation
