@@ -28,7 +28,9 @@ el programa debe tener la programación para calcular lo siguiente usando los da
         si por ejemplo son     9    / 20 * 100 = 45.0, que corresponde a un 45.0% 
         (TIP - se calcula hasta el final puede ser al desplegar o antes y dejar los resultaods en una lista)
     - Contar la cantidad total de series.  
-    - Calcular el promedio de todas las series de Amazon
+    - Calcular el promedio de las calificaciones de todas las series de Amazon
+       (TIP - usa un acumulador - inicializar antes del ciclo e incrementar al ir recorriendo la matriz)
+    - Calcular el tiempo promedio de duración de todas las series de Amazon.
        (TIP - usa un acumulador - inicializar antes del ciclo e incrementar al ir recorriendo la matriz)
 
 La salida debería ser :
@@ -52,13 +54,14 @@ La salida debería ser :
 18 Young Justice Animation
 19 Band of Brothers Drama
 20 Futurama Animation
-Animation 9 45.0%
-Drama 6 30.0%
-Crime 3 15.0%
-Documentary 1 5.0%
-Comedy 1 5.0%
+Animation 9
+Drama 6
+Crime 3
+Documentary 1
+Comedy 1
 Total de series: 20
-Promedio: 8.38
+Calificacion Promedio: 8.38
+Tiempo Promedio: 
 
 
 """
@@ -90,7 +93,8 @@ def main():
 
 
     print("Total de series:", total)
-    print("Promedio:", round(promedio, 2))
+    print("Calificacion Promedio:", round(promedio, 2))
+    print("Tiempo Promedio:", round(promedio, 2))
 
 if __name__=='__main__':
     main()
