@@ -63,7 +63,7 @@ Clientes registrados(R o r):
 Clientes nuevos(N o n):
 - se les dará un 10% de descuento por cualquier monto de compra
 """
-
+    pass
 
 
 def main() :
