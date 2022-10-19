@@ -8,7 +8,7 @@
 input_values = [
     # Test case 1
     (
-        [],
+        [1],
         ["1 I Am Not an Animal Animation",
 "2 Chernobyl Drama",
 "3 Rick and Morty Animation",
@@ -29,15 +29,33 @@ input_values = [
 "18 Young Justice Animation",
 "19 Band of Brothers Drama",
 "20 Futurama Animation",
-"Animation 9 45.0%",
-"Drama 6 30.0%",
-"Crime 3 15.0%",
-"Documentary 1 5.0%",
-"Comedy 1 5.0%",
-"Total de series: 20",
-"Promedio: 8.38"],
+"Animation 9",
+"Drama 6",
+"Crime 3",
+"Documentary 1",
+"Comedy 1",
+"Total: 20",
+"Calificacion Promedio: 8.38",
+"Tiempo Promedio: 893.2"],
+"Debe salir: lo que te indica el caso de prueba1"
+    ),
+ # Test case 2
+    (
+        [2],
+        ["1 Josu",
+"2 Cristian",
+"3 Ricky",
+"4 Beatriz",
+"5 Hugo",
+"6 Silvia",
+"7 Pedro",
+"ITC 3",
+"INE 1",
+"IFI 2",
+"IRS 1",
+"Total: 7",
+"Calificacion Promedio: 88.71",
+"Tiempo Promedio: 2514.29],
 "Debe salir:"
     )
-
-
 ]
