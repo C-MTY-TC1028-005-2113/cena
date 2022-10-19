@@ -5,35 +5,30 @@
 
 """
 Diseña y códifica un programa en Python que haga lo siguiente: 
-
 Datos de Entrada:
-El programa ya tiene una matriz con la información de las Series de Amazon 
+El programa ya tiene 2 matrices con la información de las Series de Amazon y otra con información de alumnos.
 - cada renglón de la matriz se organiza de la siguiente forma
-       Titulo ,         genero,    código_serie, País, duracion_min, fecha_lanzamiento, calificación
-['I Am Not an Animal', 'Animation',   '11.164',  'GB',  '349',         '10/05/04',          '9.5']
+       Nombre ,            clase,    código,      País,  duracion_min,        fecha,     calificación
+['I Am Not an Animal', 'Animation',   '11.164',     'GB',      '349',         '10/05/04',          '9.5']
+['Benito',                'LAE',       'A0000',     'MX',     '349',         '10/05/04',          '100']
 
 la matriz podría tener cualquier otra información - no siempre tendra la misma,
-solo por cuestiones de tiempo se puso fija - debes programar tu solución para que
-funcione para cualquier otro contenido de la matriz no únicamente para el actual,
+solo por cuestiones de tiempo se tienen 2 opciones - debes programar tu solución para que
+funcione para cualquier otro contenido de la matriz no únicamente para los actuales,
 de lo contrario TU SOLUCIÓN NO TENDRÁ SE TOMARA EN CUENTA (0 PTOS.).
 
 Salidas:
-El programa debe desplegar un listado de las series, con una numeración de 1 hasta n Serie (la cantidad de renglones de la matriz)
+El programa debe desplegar un listado como se muestra a continuación, con una numeración de 1 hasta n  (la cantidad de renglones de la matriz)
 el programa debe tener la programación para calcular lo siguiente usando los datos de la matriz 
        - NOTA IMPORTANTE - debes diseñar tu solución para que funcione para cualquier otro contenido de la matriz 
          no únicamente para el actual, de lo contrario TU SOLUCIÓN NO SE TOMARÁ EN CUENTA(0 PTOS).
-    - Contar la cantidad de series que existen para cada genero (TIP - contar la cantidad del mismo genero usa listas)
-    - Calcular el porcentaje % de series de ese genero que se calcula de la siguiente forma
-                            cantidad / total * 100
-        si por ejemplo son     9    / 20 * 100 = 45.0, que corresponde a un 45.0% 
-        (TIP - se calcula hasta el final puede ser al desplegar o antes y dejar los resultaods en una lista)
-    - Contar la cantidad total de series.  
-    - Calcular el promedio de las calificaciones de todas las series de Amazon
+    - Contar y desplegar la cantidad de series o alumnos que existen para cada clase (TIP - contar la cantidad total de la misma clase, usa listas)
+    - Contar y desplegar la cantidad total de elementos de la matriz.  
+    - Calcular y desplegar el promedio de todas calificaciones
        (TIP - usa un acumulador - inicializar antes del ciclo e incrementar al ir recorriendo la matriz)
-    - Calcular el tiempo promedio de duración de todas las series de Amazon.
-       (TIP - usa un acumulador - inicializar antes del ciclo e incrementar al ir recorriendo la matriz)
+    - Calcular y desplegar el promedio de todas las duraciones.
 
-La salida debería ser :
+La salida debería ser para el caso 1 :
 1 I Am Not an Animal Animation
 2 Chernobyl Drama
 3 Rick and Morty Animation
@@ -55,18 +50,19 @@ La salida debería ser :
 19 Band of Brothers Drama
 20 Futurama Animation
 Animation 9
-Drama 6
-Crime 3
-Documentary 1
-Comedy 1
-Total de series: 20
+Drama 6 
+Crime 3   
+Documentary 1 
+Comedy 1       
+Total: 20
 Calificacion Promedio: 8.38
-Tiempo Promedio: 
+Tiempo Promedio: 893.2
 
 
 """
 def main():
 
+       
     series = [['I Am Not an Animal', 'Animation', '11.164', 'GB', '349', '10/05/04', '9.5'],
     ['Chernobyl', 'Drama', '46.429', 'US', '595', '06/05/19', '8.6'],
     ['Rick and Morty', 'Animation', '132.429', 'US', '1395', '02/12/13', '8.5'],
@@ -87,9 +83,25 @@ def main():
     ['Young Justice', 'Animation', '30.096', 'US', '121', '26/11/10', '8.3'],
     ['Band of Brothers', 'Drama', '19.555', 'GB', '1500', '09/09/01', '8.2'],
     ['Futurama', 'Animation', '40.574', 'US', '919', '28/03/99', '8.2']]
+    
+    alumnos =  [['Josu', 'ITC', 'AL345', 'MX', '300', '10/05/04', '99'],
+    ['Cristianl', 'INE', 'AL456', 'US', '500', '06/05/19', '88'],
+    ['Ricky', 'IFI', 'AL456', 'MX', '1200', '02/12/13', '45'],
+    ['Beatriz', 'IRS', 'AL100', 'US', '5600', '20/01/08', '100'],
+    ['Hugo', 'IFI', 'AL890', 'MX', '5000', '02/10/11', '100'],
+    ['Silvia', 'ITC', 'AL888', 'MX', '4000', '25/07/10', '90'],
+    ['Pedro', 'ITC', 'AL999', 'MX', '1000', '06/11/16', '99']
+                ]
+      
+    # leer la opcion
+    opcion = int(input())
 
-  
-
+    if opcion == 1 :
+        matriz = series.copy()
+    else:
+        matriz = alumnos.copy( )
+    
+    # Añade aquí tu programación con comentarios y estandar de codificación
 
 
     print("Total de series:", total)
