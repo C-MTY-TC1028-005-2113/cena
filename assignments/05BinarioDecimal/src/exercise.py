@@ -30,31 +30,31 @@ el programa debe tener la programación para calcular lo siguiente usando los da
     - Calcular y desplegar el promedio de todas las duraciones.
 
 La salida debería ser para el caso 1 :
-1 I Am Not an Animal Animation
-2 Chernobyl Drama
-3 Rick and Morty Animation
-4 Breaking Bad Drama
-5 Hunter x Hunter Animation
-6 Sherlock Crime
-7 Planet Earth II Documentary
-8 Peaky Blinders Crime
-9 Stranger Things Drama
-10 DEATH NOTE Animation
-11 Avatar: The Last Airbender Animation
-12 The Twilight Zone Drama
-13 The Wire Crime
-14 Gravity Falls Animation
-15 The Sopranos Drama
-16 Neon Genesis Evangelion Animation
-17 The Marvelous Mrs. Maisel Comedy
-18 Young Justice Animation
-19 Band of Brothers Drama
-20 Futurama Animation
+1 I Am Not an Animal
+2 Chernobyl
+3 Rick and Morty
+4 Breaking Bad
+5 Hunter x Hunter
+6 Sherlock
+7 Planet Earth II
+8 Peaky Blinders
+9 Stranger Things
+10 DEATH NOTE
+11 Avatar: The Last Airbender
+12 The Twilight Zone
+13 The Wire
+14 Gravity Falls
+15 The Sopranos
+16 Neon Genesis Evangelion
+17 The Marvelous Mrs. Maisel
+18 Young Justice
+19 Band of Brothers
+20 Futurama
 Animation 9
-Drama 6 
-Crime 3   
-Documentary 1 
-Comedy 1       
+Drama 6
+Crime 3
+Documentary 1
+Comedy 1
 Total: 20
 Calificacion Promedio: 8.38
 Tiempo Promedio: 893.2
