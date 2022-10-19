@@ -41,8 +41,8 @@ input_values = [
     ),
  # Test case 2
     (
-        [2],
-        ["1 Josu",
+ [2],
+ ["1 Josu",
 "2 Cristian",
 "3 Ricky",
 "4 Beatriz",
@@ -55,7 +55,7 @@ input_values = [
 "IRS 1",
 "Total: 7",
 "Calificacion Promedio: 88.71",
-"Tiempo Promedio: 2514.29],
+"Tiempo Promedio: 2514.29"],
 "Debe salir:"
     )
 ]
