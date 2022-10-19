@@ -5,9 +5,10 @@
 
 """
 Diseña y códifica un programa en Python que haga lo siguiente: 
+
 Datos de Entrada:
-El programa ya tiene 2 matrices con la información de las Series de Amazon y otra con información de alumnos.
-- cada renglón de la matriz se organiza de la siguiente forma
+El programa ya tiene 2 matrices con la información de las Series de una plataforma y otra con contiene información de alumnos.
+- cada renglón de cada  matriz se organiza de la siguiente forma
        Nombre ,            clase,    código,      País,  duracion_min,        fecha,     calificación
 ['I Am Not an Animal', 'Animation',   '11.164',     'GB',      '349',         '10/05/04',          '9.5']
 ['Benito',                'LAE',       'A0000',     'MX',     '349',         '10/05/04',          '100']
@@ -18,7 +19,7 @@ funcione para cualquier otro contenido de la matriz no únicamente para los actu
 de lo contrario TU SOLUCIÓN NO TENDRÁ SE TOMARA EN CUENTA (0 PTOS.).
 
 Salidas:
-El programa debe desplegar un listado como se muestra a continuación, con una numeración de 1 hasta n  (la cantidad de renglones de la matriz)
+El programa debe desplegar un listado como se muestra a continuación, con una numeración de 1 hasta n(la cantidad de renglones de la matriz)
 el programa debe tener la programación para calcular lo siguiente usando los datos de la matriz 
        - NOTA IMPORTANTE - debes diseñar tu solución para que funcione para cualquier otro contenido de la matriz 
          no únicamente para el actual, de lo contrario TU SOLUCIÓN NO SE TOMARÁ EN CUENTA(0 PTOS).
@@ -58,7 +59,7 @@ Total: 20
 Calificacion Promedio: 8.38
 Tiempo Promedio: 893.2
 
-
+Si No Funciona en GitHub -10 ptos.
 """
 def main():
 
