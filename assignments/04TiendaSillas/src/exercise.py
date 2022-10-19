@@ -6,8 +6,6 @@
 En una tienda de laptops se venden de 3 tipos: corei7, corei7, corei9
 La tienda además tiene clasificados a sus  clientes en las siguientes categorias: frecuentes, registrados y nuevos
 
-
-
 Ya pronto se acerca la venta del Buen Fin, por lo tanto El director de la tienda a decidido dar los siguientes
 descuentos dependiendo del cliente:
 
@@ -39,6 +37,8 @@ El total inicial, antes de aplicar descuento
 La cantidad de dinero que se otorga por descuento y
 El total a pagar por el cliente.
 La salida del programa debe de ser exactamente como se indica en los casos de prueba - 
+
+Si No Funciona en GitHub -10 ptos.
 
 """
 
