@@ -11,21 +11,21 @@ if __name__ == '__main__':
     main()
 ```
 La línea `#escribe tu código abajo de esta línea` es un comentario, el programa la va a ignorar al ejecutarse.
-
+Casos de prueba
 ```
->>> %Run 'solución prob1 ex final.py'
+
 Tipo de laptop i5, i7, i9: iii9
 Tipo de cliente F, R, N: F
 Cantidad de laptops: 10
 Error en tipo de laptop
 
->>> %Run 'solución prob1 ex final.py'
+
 Tipo de laptop i5, i7, i9: i9
 Tipo de cliente F, R, N: Tec
 Cantidad de laptops: 10
 Error en tipo de cliente
 
->>> %Run 'solución prob1 ex final.py'
+
 Tipo de laptop i5, i7, i9: i7
 Tipo de cliente F, R, N: R
 Cantidad de laptops: 10
@@ -33,7 +33,7 @@ Total sin dcto: 95,000
 Descuento: 23,750
 Total a pagar: 71,250
 
->>> %Run 'solución prob1 ex final.py'
+
 Tipo de laptop i5, i7, i9: i7
 Tipo de cliente F, R, N: f
 Cantidad de laptops: 10
