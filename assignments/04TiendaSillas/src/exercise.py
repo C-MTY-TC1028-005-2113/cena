@@ -40,8 +40,35 @@ La salida del programa debe de ser exactamente como se indica en los casos de pr
 
 Si No Funciona en GitHub -10 ptos.
 
-"""
 
+Casos de prueba:
+
+Tipo de laptop i5, i7, i9: iii9
+Tipo de cliente F, R, N: F
+Cantidad de laptops: 10
+Error en tipo de laptop
+
+Tipo de laptop i5, i7, i9: i9
+Tipo de cliente F, R, N: Tec
+Cantidad de laptops: 10
+Error en tipo de cliente
+
+Tipo de laptop i5, i7, i9: i7
+Tipo de cliente F, R, N: R
+Cantidad de laptops: 10
+Total sin dcto: 95,000
+Descuento: 23,750
+Total a pagar: 71,250
+
+Tipo de laptop i5, i7, i9: i7
+Tipo de cliente F, R, N: f
+Cantidad de laptops: 10
+Total sin dcto: 95,000
+Descuento: 28,500
+Total a pagar: 66,500
+
+"""
+# Inicia el programa
 def total_antes_descuento(tipo_laptop, cantidad):
     """Los precios de las laptops  son:
 corei5 $7_500.00 c/u
