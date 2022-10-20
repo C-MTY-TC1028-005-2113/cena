@@ -30,16 +30,8 @@ Función llamada total_antes_descuento que recibe como parámetros: tipo_laptop 
         La función retorna el total incial, antes del descuento.
 Función llamada calcula_descuento que recibe como parámetros: el total inicial y el tipo_cliente: 
          La función retorna el monto del descuento.
-El programa debe calcular y mostrar los siguientes datos 
-(todos los datos son flotantes y debes mostrar uno en cada renglón):
-
-El total inicial, antes de aplicar descuento
-La cantidad de dinero que se otorga por descuento y
-El total a pagar por el cliente.
-La salida del programa debe de ser exactamente como se indica en los casos de prueba - 
 
 Si No Funciona en GitHub -10 ptos.
-
 
 Casos de prueba:
 
