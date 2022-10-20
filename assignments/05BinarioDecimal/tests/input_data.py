@@ -43,7 +43,8 @@ input_values = [
  # Test case 2
     (
  [2],
- ["1 Josu",
+ ["",
+"1 Josu",
 "2 Cristian",
 "3 Ricky",
 "4 Beatriz",
