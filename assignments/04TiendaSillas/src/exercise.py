@@ -16,7 +16,7 @@ Clientes registrados(R o r):
 - si su compra es superior a $20,000  e inferior a $30,000 un 15% de descuento
 - si su compra es superior $30,000 un 25% de descuento
 
-Clientes nuevos(N o n:
+Clientes nuevos(N o n):
 - se les dará un 10% de descuento por cualquier monto de compra
 
 Lleva a cabo el análisis, diseño y codificación en python de un programa
