@@ -3,7 +3,7 @@
 # Carrera -
 
 """
-En una tienda de laptops se venden de 3 tipos: corei7, corei7, corei9
+En una tienda de laptops se venden de 3 tipos: corei5, corei7, corei9
 La tienda además tiene clasificados a sus  clientes en las siguientes categorias: frecuentes, registrados y nuevos
 
 Ya pronto se acerca la venta del Buen Fin, por lo tanto El director de la tienda a decidido dar los siguientes
@@ -20,7 +20,7 @@ Clientes nuevos(N o n:
 - se les dará un 10% de descuento por cualquier monto de compra
 
 Lleva a cabo el análisis, diseño y codificación en python de un programa
-que lea la categoria de la laptop (que puede ser i7, i7, i9 que puede ser ingresada cómo Mayúscula o minúscula),
+que lea la categoria de la laptop (que puede ser i5, i7, i9 que puede ser ingresada cómo Mayúscula o minúscula),
 el tipo de cliente (que es una letra f,r,n que puede ser ingresada cómo Mayúscula o minúscula)
 y la cantidad a comprar (que es un número entero).
 Para esta versión que vas a diseñar solo se le permite al cliente realizar una comprar de un solo tipo de laptop.
